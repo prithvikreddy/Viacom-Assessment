@@ -1,0 +1,95 @@
+{
+    "mtv" : {
+            "series": [
+                {
+                    "name":"MTV series1",
+                    "Description":"Triller",
+                    "Days":"Monday to Friday",
+                    "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                },
+                {
+                    "name":"MTV series2",
+                    "Description":"Comedy",
+                    "Days":"Saturday and Sunday",
+                    "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                },
+                {
+                    "name":"MTV series3",
+                    "Description":"Romantic",
+                    "Days":"Monday to Friday",
+                    "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                }
+            ]
+    },
+    "logotv": {
+               "series": [
+                    {
+                        "name":"Logo TV series1",
+                        "Description":"Triller",
+                        "Days":"Monday to Friday",
+                        "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                    },
+                    {
+                        "name":"Logo TV series2",
+                        "Description":"Comedy",
+                        "Days":"Saturday and Sunday",
+                        "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                    },
+                    {
+                        "name":"Logo TV series3",
+                        "Description":"Romantic",
+                        "Days":"Monday to Friday",
+                         "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                    }
+                ]
+    },
+    "vh1" : {
+            "series": [
+                {
+                    "name":"VH1 series1",
+                    "Description":"Triller",
+                    "Days":"Monday to Friday",
+                    "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                },
+                {
+                    "name":"VH1 series2",
+                    "Description":"Comedy",
+                    "Days":"Saturday and Sunday",
+                    "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                },
+                {
+                    "name":"VH1 series3",
+                    "Description":"Romantic",
+                    "Days":"Monday to Friday",
+                     "date":["10/6/2017",
+                            "10/7/2017"],
+                    "time":["20:00",
+                            "21:00"]
+                }
+            ]
+    }
+}

@@ -1,0 +1,10 @@
+
+<div class="col-md-8">
+<ul  *ngFor = "let data of dataArray; let i=index">
+  <li (click)="myFunc(i)">{{data.name}}</li>
+</ul>
+</div>
+
+<div *ngIf="flag" class="col-md-4">
+  <app-right-view-comp [myData]="index"></app-right-view-comp>
+</div>

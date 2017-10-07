@@ -1,0 +1,20 @@
+<div class="container" *ngIf="detail ? 1 : 0">
+  <strong> Name </strong> : {{detail.name}}<br />
+   <strong> Description </strong> :{{detail.Description}}<br />
+  <strong> Days </strong> : {{detail.Days}}
+</div>
+
+<br />
+<div  *ngIf="detail ? 1 : 0" class="container">
+<select [(ngModel)]="d">
+  <option *ngFor="let d of detail.date" [value]="d">{{d}}</option>
+</select>
+
+<select [(ngModel)]="t">
+  <option *ngFor="let t of detail.time" [value]="t">{{t}}</option>
+</select>
+<br /><br />
+This show is on {{d}} at {{t}}
+
+</div>
+
